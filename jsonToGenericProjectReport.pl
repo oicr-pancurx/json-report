@@ -136,7 +136,7 @@ chomp $date;
 
 unless (-e "sorttable.js")
 {
-	`ln -s ~rdenroche/sorttable.js`;
+	`ln -s /.mounts/labs/PCSI/production/phoenix-report/sorttable.js`;
 }
 
 

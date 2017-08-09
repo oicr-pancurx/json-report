@@ -8,7 +8,7 @@ use vars qw/ %opt /;
 
 use JSON;
 
-my $scriptLocation = "~rdenroche/svn/seq_prod_bio/pipeline/jsonReport/";
+my $scriptLocation = "/.mounts/labs/PCSI/production/json-report/";
 
 my $wgsTargetBed = "/oicr/data/genomes/homo_sapiens/UCSC/Genomic/UCSC_hg19_random/hg19_random.genome.sizes.bed";
 my $exomeTargetBed = $wgsTargetBed;

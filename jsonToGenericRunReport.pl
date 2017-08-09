@@ -124,7 +124,7 @@ my $linkName;
 
 unless (-e "sorttable.js")
 {
-	`ln -s ~rdenroche/sorttable.js`;
+	`ln -s /.mounts/labs/PCSI/production/phoenix-report/sorttable.js`;
 }
 
 print "<html>\n<head>\n";
